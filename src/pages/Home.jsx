@@ -22,7 +22,7 @@ const Home = () => {
 
     const handleDelete = (id) => {
         dispatch(deleteUser(id));
-        toast.success('User Deleted Successfully');
+        // toast.success('User Deleted Successfully');
     };
 
     const filteredUsers = users.filter((user) =>
