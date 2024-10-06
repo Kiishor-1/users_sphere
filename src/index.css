@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-row-odd {
+    background-color: rgb(241, 237, 237);
+    color: black;
+}
